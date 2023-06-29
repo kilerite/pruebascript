@@ -29,4 +29,4 @@ File.open(render_build_path, 'w') { |file| file.puts render_build_content }
 # Aplicar permisos al archivo render-build.sh
 File.chmod(0755, render_build_path)
 
-puts 'A difrutar tu Deploy .'
+puts 'Deploy script executed successfully.'
